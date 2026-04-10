@@ -1,0 +1,63 @@
+figure{
+    border: 2px solid black;
+    width: 400px;
+}
+
+/* Descendent Selector */
+figure img{
+    width: 100%;
+}
+
+/* Id Selector */
+#special{
+    color: orange;
+}
+
+/* Class Selector */
+
+.fav-movie{
+    font-weight: bold;
+    color: purple;
+}
+
+.highlight{
+    text-decoration: underline;
+}
+
+.fav-movie.highlight{
+    background-color: orange;
+}
+
+/* .fav-movie,.highlight{
+    color: red;
+} */
+/* 
+.fav-movie{
+    color: red;
+}
+
+.highlight{
+    color: red;
+} */
+
+section p{
+    color: palevioletred;
+}
+
+/* Child Selector */
+
+ul > li{
+    border-top: 2px solid palevioletred;
+    /* color: purple; */
+}
+
+/* Attribute Selector */
+
+a[href="http://facebook.com"]{
+    font-size: 32px;
+    color: green;
+}
+
+input[type="password"]{
+    background-color: orange;
+}
