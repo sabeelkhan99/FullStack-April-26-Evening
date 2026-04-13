@@ -1,0 +1,41 @@
+p{
+    /* border */
+    border: 2px solid black;
+
+    /* Dimentions - Content */
+    width: 400px;
+    height: 100px;
+
+    /* margin */
+    /* margin: 40px; */
+
+    /* margin: 20px 30px 40px 50px; */
+    /* margin: 30px 40px; */
+
+    margin: 20px auto;
+
+    /* padding */
+    padding: 20px;
+
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px; */
+
+    /* padding: 20px 30px 40px 50px; */
+}
+
+body{
+    /* border: 2px solid red; */
+}
+
+h1{
+    /* border: 3px solid black; */
+    border-top: 3px solid lightcoral;
+    border-right: 3px solid lightgreen;
+    border-bottom: 3px solid lightslategray;
+    border-left: 3px solid limegreen;
+
+    /* border-radius: 20px 30px 40px 30px;  */
+    border-radius: 30px;
+}
