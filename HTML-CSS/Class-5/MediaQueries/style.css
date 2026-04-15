@@ -1,0 +1,40 @@
+section{
+    width: 70vw;
+    border: 2px solid black;
+    margin: 2rem auto;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+/* Desktop First Design - Homework */
+
+@media screen and (width<=1151px){
+    section h1{
+        font-size: 6rem;
+        color: lightcoral;
+    }
+}
+
+@media screen and (width<=986px){
+    section h1{
+        font-size: 5rem;
+        color: lightgreen;
+    }
+}
+
+@media screen and (width<=823px){
+    section h1{
+        font-size: 3rem;
+        color: purple;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    p{
+        text-decoration: line-through;
+        color: brown;
+        font-size: 1.5rem;
+    }
+}

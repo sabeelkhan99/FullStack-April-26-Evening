@@ -1,0 +1,1 @@
+1. Learn Mobile First vs Desktop first design of media queries
