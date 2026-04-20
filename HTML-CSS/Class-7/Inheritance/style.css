@@ -1,0 +1,11 @@
+ul>li{
+    border-top: 2px solid orange;
+}
+
+ol{
+   border-top: inherit; 
+}
+
+ol li{
+    border-top: inherit;
+}
