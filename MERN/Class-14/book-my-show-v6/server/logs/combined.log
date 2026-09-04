@@ -277,3 +277,28 @@
 {"level":"info","message":"server started at 8080","timestamp":"2026-09-02T18:11:28.452Z"}
 {"level":"info","message":"server started at 8080","timestamp":"2026-09-04T13:32:26.230Z"}
 {"level":"info","message":"server started at 8080","timestamp":"2026-09-04T13:38:55.180Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:05:03.386Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:20:35.709Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:22:37.764Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:24:20.781Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:24:39.178Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:25:02.637Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:25:21.795Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:28:00.815Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:31:11.396Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:40:05.317Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:58:33.569Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T16:59:43.116Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:26:27.446Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:27:19.184Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:28:36.671Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:28:55.025Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:29:03.205Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:29:09.340Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:39:48.524Z"}
+{"level":"info","message":"server started at 8080","timestamp":"2026-09-04T17:42:24.339Z"}
+{"level":"info","message":"Request received to get theatres for user - 6a9b03199351ef94b736d602","timestamp":"2026-09-04T17:43:12.729Z"}
+{"level":"info","message":"Request received to get theatres for user - 6a9b03199351ef94b736d602","timestamp":"2026-09-04T17:43:12.785Z"}
+{"level":"info","message":"Request received to create theatre for user - 6a9b03199351ef94b736d602","timestamp":"2026-09-04T17:43:30.074Z"}
+{"level":"info","message":"Request received to get theatres for user - 6a9b03199351ef94b736d602","timestamp":"2026-09-04T17:43:30.138Z"}
+{"level":"info","message":"Request received to get theatres for user - 6a9b03199351ef94b736d602","timestamp":"2026-09-04T17:43:30.177Z"}

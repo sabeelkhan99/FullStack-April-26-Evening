@@ -7,13 +7,23 @@ import Booking from '../models/Booking.js';
 
 const router = express.Router();
 
+router.get('/', isLoggedIn, async (req, res) => {
+    const { userId } = req.user;
+    const bookings = await Booking.find({ user: userId, status: 'CONFIRMED' })
+        .populate('movie', 'title posterUrl genres rating')
+        .populate('theatre', 'name address')
+        .sort({ createdAt: -1 });
+
+    res.json(ApiResponse.build('success', 'Confirmed bookings', bookings));
+});
+
 router.post('/', isLoggedIn, async(req, res) => {
     const { userId } = req.user;
     const { theatre, movie, seats, showTime, amount, screening } = req.body;
     
     // const foundScreening = await Screening.findOne({ theatre, movie, showTimings: { $in: [showTime] } });
     const foundScreening = await Screening.findById(screening);
-    
+
     if (!foundScreening) {
         throw new NotFoundError('Something went wrong please. Try booking again');
     }

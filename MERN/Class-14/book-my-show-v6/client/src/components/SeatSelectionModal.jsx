@@ -50,7 +50,9 @@ const SeatSelectionModal = ({ open, onClose, screening, movieId, movieTitle }) =
   }, [open, screening])
 
   useEffect(() => {
-    if (bookingStatus !== 'completed' || !bookingData) return
+    if (bookingStatus !== 'completed' || !bookingData) {
+      return
+    }
 
     let cancelled = false
 
@@ -58,13 +60,13 @@ const SeatSelectionModal = ({ open, onClose, screening, movieId, movieTitle }) =
       setIsStartingPayment(true)
       setPaymentError(null)
       try {
-        const paymentSession = await createPayment(bookingData._id)
+        const createPaymentResponse = await createPayment(bookingData._id)
         if (cancelled) return
 
-        if (!paymentSession.url) {
+        if (!createPaymentResponse.url) {
           throw new Error('Missing Stripe checkout URL')
         }
-        window.location.assign(paymentSession.url)
+        window.location.assign(createPaymentResponse.url)
       } catch (error) {
         if (cancelled) return
         const message = error.response?.data?.message || error.message || 'Unable to start payment'

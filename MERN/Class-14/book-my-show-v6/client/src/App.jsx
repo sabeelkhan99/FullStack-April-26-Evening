@@ -7,6 +7,7 @@ import CreateTheatrePage from './pages/CreateTheatrePage'
 import ShowTheatresPage from './pages/ShowTheatresPage'
 import TheatreDetailsPage from './pages/TheatreDetailsPage'
 import StatusPage from './pages/StatusPage'
+import ProfilePage from './pages/ProfilePage'
 import Layout from './components/Layout'
 import ProtectedLayout from './components/ProtectedLayout'
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/status" element={<StatusPage />} />
         
         <Route element={<ProtectedLayout />}>
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/theatres/create" element={<CreateTheatrePage />} />
           <Route path="/theatres" element={<ShowTheatresPage />} />
           <Route path="/theatres/:theatreId" element={<TheatreDetailsPage />} />

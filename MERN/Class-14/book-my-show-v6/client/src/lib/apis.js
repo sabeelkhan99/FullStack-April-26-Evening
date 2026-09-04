@@ -79,6 +79,15 @@ export const createScreening = async (theatreId, movieId, showTime, meridiem, pr
     return response.data.payload;
 }
 
+export const getConfirmedBookings = async () => {
+    const response = await axios.get('http://localhost:8080/bookings', {
+        headers: {
+            Authorization: `Bearer ${localStorage.getItem('token')}`,
+        },
+    });
+    return response.data.payload;
+}
+
 export const createBooking = async (bookingDetails) => {
     const response = await axios.post('http://localhost:8080/bookings', bookingDetails, {
         headers: {

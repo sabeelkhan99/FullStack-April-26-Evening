@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           {!isLoggedIn && <Button color="inherit" component={RouterLink} nativeButton={false} to="/signup">
             Sign Up
           </Button>}
-          {isLoggedIn && <Button color="inherit" component={RouterLink} nativeButton={false}>
+          {isLoggedIn && <Button color="inherit" component={RouterLink} nativeButton={false} to="/profile">
             {email}
           </Button>}
           {isLoggedIn && <Button onClick={()=> logoutUser()} color="inherit">
